@@ -15,7 +15,15 @@ hidden2(); // returns 1
 
 ***********************************************************************/
 
-// Your code here 
+// Your code here
+function hiddenCounter() {
+  let count = 0
+  const incrementCount = () => {
+    count += 1
+    return count
+  }
+  return incrementCount
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
