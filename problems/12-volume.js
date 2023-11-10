@@ -13,8 +13,22 @@ function returned by recVolume should continue to return the original volume.
 
 ***********************************************************************/
 
-// Your code here 
-
+const recVolume = height => {
+  let res = [height];
+  const sumThree = (otherNum) => {
+    res.push(otherNum);
+  if(res.length >= 3) {
+    console.log(res);
+    return res.reduce((a, b) => a * b)
+  }
+  return sumThree;
+  }
+  return sumThree;
+}
+let tri = recVolume(12);
+let tri1 = tri(8);
+let tri2 = tri1(20);
+console.log(tri2);
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
