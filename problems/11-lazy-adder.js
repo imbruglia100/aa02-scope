@@ -25,7 +25,6 @@ const lazyAdder = num => {
   let res = [num];
   const sumThree = (otherNum) => {
     res.push(otherNum);
-    console.log(res);
   if(res.length >= 3) {
     return res.reduce((a, b) => a + b)
   }
